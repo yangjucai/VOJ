@@ -21,7 +21,7 @@ int main(void)
     while (num % 10 == 0)
         num /= 10;
 
-    // 从后往前输出   
+    // 从后往前输出   
     while (num != 0)
     {
         printf("%d", num % 10);
